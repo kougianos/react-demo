@@ -49,11 +49,11 @@ function Profile() {
               a company’s organizational needs.
             </h5>
             <Row>
-              <Col className="ml-auto mr-auto" md="6">
+              <Col className="ml-auto mr-auto" md="12">
                 <h4 className="title text-center">More details</h4>
                 <div className="nav-align-center">
                   <Nav
-                    className="nav-pills-info nav-pills-just-icons"
+                    className="nav-pills-primary nav-pills-just-icons"
                     pills
                     role="tablist"
                   >
@@ -96,94 +96,57 @@ function Profile() {
                   </Nav>
                 </div>
               </Col>
-              <TabContent className="gallery" activeTab={"pills" + pills}>
+              <TabContent className="gallery w-100 px-2" activeTab={"pills" + pills}>
                 <TabPane tabId="pills1">
                   <Col className="ml-auto mr-auto" md="10">
-                    <Row className="collections">
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg1.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg3.jpg")}
-                        ></img>
-                      </Col>
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg8.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg7.jpg")}
-                        ></img>
-                      </Col>
-                    </Row>
+			<Row>
+		    		<span class="font-weight-bold text-primary">M.Sc Data Science </span>&nbsp; (2019-2021)
+                    	</Row>
+                    	<Row>
+		    		<span class="font-weight-bold text-primary">B.Sc Computer Science </span>&nbsp; (2011-2018)
+                    	</Row>
                   </Col>
                 </TabPane>
                 <TabPane tabId="pills2">
                   <Col className="ml-auto mr-auto" md="10">
-                    <Row className="collections">
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg6.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg11.jpg")}
-                        ></img>
-                      </Col>
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg7.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg8.jpg")}
-                        ></img>
-                      </Col>
-                    </Row>
+		  	<Row>
+		    		<span class="font-weight-bold text-primary">Software Engineer </span>&nbsp;@ OTE-COSMOTE (July 2019-today)
+                    	</Row>
+                    	<Row>
+		    		<span class="font-weight-bold text-primary">Full Stack Developer </span>&nbsp;@ Figame (November 2018-May 2019)
+                    	</Row>
                   </Col>
                 </TabPane>
                 <TabPane tabId="pills3">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg3.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg8.jpg")}
-                        ></img>
-                      </Col>
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg7.jpg")}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("assets/img/bg6.jpg")}
-                        ></img>
-                      </Col>
+			<div className="progress-container w-100 px-3">
+				<h3 className="">Skills</h3>
+			</div>
+		    	<div className="progress-container progress-primary w-100 px-3">
+				<span className="progress-badge">PHP</span>
+				<Progress max="100" value="80">
+				<span className="progress-value">80%</span>
+				</Progress>
+			</div>
+			<div className="progress-container progress-primary w-100 px-3">
+				<span className="progress-badge">Jquery</span>
+				<Progress max="100" value="75">
+				<span className="progress-value">75%</span>
+				</Progress>
+			</div>
+			<div className="progress-container progress-primary w-100 px-3">
+				<span className="progress-badge">React</span>
+				<Progress max="100" value="30">
+				<span className="progress-value">30%</span>
+				</Progress>
+			</div>
+			<div className="progress-container progress-primary w-100 px-3">
+				<span className="progress-badge">Bootstrap4</span>
+				<Progress max="100" value="90">
+				<span className="progress-value">90%</span>
+				</Progress>
+			</div>
                     </Row>
                   </Col>
                 </TabPane>

@@ -3067,7 +3067,7 @@ textarea.form-control:active {
   text-transform: uppercase;
 }
 .progress-container .progress {
-  height: 1px;
+  height: 5px;
   border-radius: 0;
   box-shadow: none;
   background: rgba(222, 222, 222, 0.8);
