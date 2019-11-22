@@ -11,7 +11,8 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
+  Progress
 } from "reactstrap";
 
 // core components
@@ -49,7 +50,7 @@ function Profile() {
             </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
-                <h4 className="title text-center">My Portfolio</h4>
+                <h4 className="title text-center">More details</h4>
                 <div className="nav-align-center">
                   <Nav
                     className="nav-pills-info nav-pills-just-icons"
@@ -63,9 +64,9 @@ function Profile() {
                         onClick={e => {
                           e.preventDefault();
                           setPills("1");
-                        }}
+			}}
                       >
-                        <i className="now-ui-icons design_image"></i>
+                        <i className="now-ui-icons education_hat"></i>
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -77,7 +78,7 @@ function Profile() {
                           setPills("2");
                         }}
                       >
-                        <i className="now-ui-icons location_world"></i>
+                        <i className="now-ui-icons business_briefcase-24"></i>
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -89,7 +90,7 @@ function Profile() {
                           setPills("3");
                         }}
                       >
-                        <i className="now-ui-icons sport_user-run"></i>
+                        <i className="now-ui-icons design_bullet-list-67"></i>
                       </NavLink>
                     </NavItem>
                   </Nav>

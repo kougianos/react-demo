@@ -44,7 +44,7 @@ function ExamplesNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"fixed-top " + navbarColor} color="primary" expand="lg">
         <Container>
           
           <div className="navbar-translate">
@@ -88,7 +88,7 @@ function ExamplesNavbar() {
               </NavItem>
 	      <NavItem>
                 <NavLink href="https://grizzledwizard.eu/kougianos" target="_blank" id="kougianos-tooltip">
-                  <i className="fas fa-user"></i>
+		<i className="now-ui-icons objects_spaceship"></i>
                   <p className="d-lg-none d-xl-none"> kougianos</p>
                 </NavLink>
                 <UncontrolledTooltip target="#kougianos-tooltip">

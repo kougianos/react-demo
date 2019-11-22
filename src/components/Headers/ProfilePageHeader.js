@@ -30,7 +30,7 @@ function ProfilePageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/bg4.jpg") + ")"
           }}
           ref={pageHeader}
         ></div>
@@ -39,7 +39,7 @@ function ProfilePageHeader() {
             <img alt="Nikos Kougianos" src={require("assets/img/kougianos.jpg")}></img>
           </div>
           <h3 className="title">Nikos Kougianos</h3>
-          <p className="category">Software Engineer</p>
+          <p className="category text-primary">Software Engineer</p>
         </Container>
       </div>
     </>
