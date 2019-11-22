@@ -11,48 +11,10 @@ function DefaultFooter() {
     <>
       <footer className="footer footer-default">
         <Container>
-          <nav>
-            <ul>
-              <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  kougi
-                </a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </nav>
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
-            <a
-              href=""
-              target="_blank"
-            >
-              kougi
-            </a>
-            . Coded by{" "}
-            <a
-              href=""
-              target="_blank"
-            >
-              kougi
+            © {new Date().getFullYear()}, Coded by&nbsp;
+            <a href="https://grizzledwizard.eu/kougianos" target="_blank">
+                Nikos Kougianos
             </a>
             .
           </div>
