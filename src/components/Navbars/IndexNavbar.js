@@ -58,7 +58,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Now UI Kit React
+              React Demo
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"

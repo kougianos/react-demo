@@ -9,6 +9,7 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "views/Index.js";
+import Profile from "views/examples/Profile.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Switch>
       <Switch>
         <Route path="/index" render={props => <Index {...props} />} />
+	<Route path="/profile" render={props => <Profile {...props} />} />
         <Route
           path="/nucleo-icons"
           render={props => <NucleoIcons {...props} />}
