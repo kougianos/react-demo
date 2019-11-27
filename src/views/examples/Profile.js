@@ -2,7 +2,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
   NavItem,
   NavLink,
   Nav,
@@ -11,7 +10,6 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
   Progress
 } from "reactstrap";
 

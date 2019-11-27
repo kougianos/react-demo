@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
@@ -17,13 +16,13 @@ function ExamplesNavbar() {
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
-        document.documentElement.scrollTop > 399 ||
-        document.body.scrollTop > 399
+        document.documentElement.scrollTop > 199 ||
+        document.body.scrollTop > 199
       ) {
         setNavbarColor("");
       } else if (
-        document.documentElement.scrollTop < 400 ||
-        document.body.scrollTop < 400
+        document.documentElement.scrollTop < 200 ||
+        document.body.scrollTop < 200
       ) {
         setNavbarColor("navbar-transparent");
       }
