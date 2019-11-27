@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-demo/static/css/main.f1489d53.chunk.css",
+    "main.js": "/react-demo/static/js/main.fb80e2bf.chunk.js",
+    "main.js.map": "/react-demo/static/js/main.fb80e2bf.chunk.js.map",
+    "runtime~main.js": "/react-demo/static/js/runtime~main.3dcdfef1.js",
+    "runtime~main.js.map": "/react-demo/static/js/runtime~main.3dcdfef1.js.map",
+    "static/js/2.bd27a77b.chunk.js": "/react-demo/static/js/2.bd27a77b.chunk.js",
+    "static/js/2.bd27a77b.chunk.js.map": "/react-demo/static/js/2.bd27a77b.chunk.js.map",
+    "index.html": "/react-demo/index.html",
+    "precache-manifest.74a423212115521bf96d5dd7d7d29261.js": "/react-demo/precache-manifest.74a423212115521bf96d5dd7d7d29261.js",
+    "service-worker.js": "/react-demo/service-worker.js",
+    "static/css/main.f1489d53.chunk.css.map": "/react-demo/static/css/main.f1489d53.chunk.css.map",
+    "static/media/bg4.jpg": "/react-demo/static/media/bg4.4bff5d45.jpg",
+    "static/media/kougianos.jpg": "/react-demo/static/media/kougianos.f1c18caa.jpg",
+    "static/media/now-ui-kit.scss": "/react-demo/static/media/nucleo-outline.8ebec31f.woff2"
+  }
+}
